@@ -5,7 +5,7 @@ SHELL := /bin/bash
 MAKEFLAGS += --warn-undefined-variables
 MAKEFLAGS += --no-builtin-rules
 
-VERSION := 0.0.0
+VERSION := 0.0.1
 ROOT := $(shell pwd)
 PACKAGE_PATH := ${ROOT}/src/git_helpers
 PYTHON_VERSION := $(shell cat .python-version)
