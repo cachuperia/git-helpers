@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "blueprint-python"
-version = "0.1.0"
-description = "GitHub template for Python package blueprint"
+name = "git-helpers"
+version = "0.0.0"
+description = "Simple helpers for CD/CI pipelines"
 authors = ["Iaroslav Russkykh <me@elruso.im>"]
 license = "MIT"
-repository = "https://github.com/cachuperia/blueprint-python"
-documentation = "https://github.com/cachuperia/blueprint-python"
+repository = "https://github.com/cachuperia/git-helpers"
+documentation = "https://github.com/cachuperia/git-helpers"
 # https://pypi.org/classifiers/
 classifiers = [
     "Development Status :: 3 - Alpha",
@@ -39,7 +39,7 @@ detect-secrets = "~1.2.0"
 [tool.poetry.extras]
 
 [tool.poetry.scripts]
-blueprint-python = "blueprint_python:cli.cli"
+git-helpers = "git_helpers:cli.cli"
 
 [tool.black]
 line-length = 100
