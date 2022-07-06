@@ -19,11 +19,11 @@ git-helpers --help
 
 ## Development
 
-Release can be triggered by commit with `feat` or `fix` prefix. Check GitHub [workflow](.github/workflows/release.yml:L13) for details.
+Release can be triggered by commit with `feat` or `fix` prefix. Check GitHub [workflow](.github/workflows/release.yml#L13) for details.
 
 ### Prerequisites
 
-Tools to install: [direnv][d], [git][g], , [poetry][p], [pre-commit][pk].
+Tools to install: [direnv][d], [git][g], [poetry][p], [pre-commit][pk].
 
 You can use [this][a] playbook for automated tools installation(Ubuntu only).
 
@@ -48,8 +48,8 @@ Use [Conventional Commits][cc] message style.
 [p]: https://python-poetry.org/docs/#installation
 [pk]: https://pre-commit.com/#install
 
-[checks]: https://github.com/agblox/git-helpers/actions/workflows/checks.yml/badge.svg
-[release]: https://github.com/agblox/git-helpers/actions/workflows/release.yml/badge.svg
+[checks]: https://github.com/cachuperia/git-helpers/actions/workflows/checks.yml/badge.svg
+[release]: https://github.com/cachuperia/git-helpers/actions/workflows/release.yml/badge.svg
 
 [wch]: .github/workflows/checks.yml
 [wr]: .github/workflows/release.yml
