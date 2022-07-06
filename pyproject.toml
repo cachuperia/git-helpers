@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "git-helpers"
-version = "0.0.0"
+version = "0.0.1"
 description = "Simple helpers for CD/CI pipelines"
 authors = ["Iaroslav Russkykh <me@elruso.im>"]
 license = "MIT"
